@@ -1,0 +1,269 @@
+@media screen and (min-width: 1800px) and (max-width: 1950px){
+	.header .left{
+		width: 20%;
+	}
+	.header .right{
+		width: 41%;
+	}
+	.example .left,
+	.example .right{
+		width: 38%;
+	}
+	.order .left{
+		top: 130px;
+		width: 31%;
+	}
+	.order .right{
+		top: 130px;
+		width: 32%;
+	}
+}
+@media screen and (min-width: 1700px) and (max-width: 1800px){
+	.header .left{
+		width: 16%;
+	}
+	.header .right{
+		width: 41%;
+	}
+	.example .left,
+	.example .right{
+		width: 38%;
+	}
+	.order .left{
+		top: 180px;
+		width: 26%;
+	}
+	.order .right{
+		top: 180px;
+		width: 27%;
+	}
+}
+@media screen and (min-width: 1600px) and (max-width: 1700px){
+	.header .left{
+		width: 14%;
+	}
+	.header .right{
+		width: 39%;
+	}
+	.example .left,
+	.example .right{
+		width: 36%;
+	}
+	.order .left{
+		top: 180px;
+		width: 26%;
+	}
+	.order .right{
+		top: 180px;
+		width: 27%;
+	}
+}
+@media screen and (min-width: 1500px) and (max-width: 1600px){
+	.header .left{
+		width: 11%;
+	}
+	.header .right{
+		width: 38%;
+	}
+	.example .left,
+	.example .right{
+		width: 36%;
+	}
+	.order .left{
+		top: 180px;
+		width: 26%;
+	}
+	.order .right{
+		top: 180px;
+		width: 27%;
+	}
+}
+@media screen and (min-width: 1400px) and (max-width: 1500px){
+	.order .left{
+		top: 180px;
+		width: 22%;
+	}
+	.order .right{
+		top: 180px;
+		width: 23%;
+	}
+}
+@media screen and (min-width: 760px) and (max-width: 1350px) {
+	.content{
+		width: 100%;
+		overflow: hidden;
+	}
+	.header .left{
+		display: none;
+	}
+	.header .right{
+		width: 15%;
+	}
+	.header .center .lists .item:nth-child(1){
+		margin-right: 0;
+	}
+	.header .center .lists .item{
+		min-width: 95%;
+		margin-right: 0;
+		padding: 0 20px;
+	}
+	.header .center .lists .item:nth-child(2), .header .center .lists .item:nth-child(3){
+		min-width: 43%;
+		margin-right: 0;
+	}
+	.example .left{
+		width: 27%;
+	}
+	.example .right{
+		width: 25%;
+	}
+	.example .articles span{
+		font-size: 20px;
+	}
+	.example .articles h3{
+		max-width: 320px;
+	}
+	.order .left{
+		width: 1%;
+	}
+	.order .right{
+		width: 4%;
+	}
+	.workflow .intro-list{
+		width: 95%;
+		padding-left: 30px;
+	}
+	.workflow .text-block{
+		margin-left: 30px;
+		width: 45%;
+		margin-top: 30px;
+		float: none;
+		display: inline-block;
+		vertical-align: top;
+	}
+}
+@media screen and (min-width: 150px) and (max-width: 760px){
+	.content{
+		width: 100%;
+		overflow: hidden;
+	}
+	.header .left,
+	.header .right{
+		display: none;
+	}
+	.header .center .main .logo .slogan{
+		max-width: 280px;
+		margin-left: 20px;
+	}
+	.header .center .main .logo h1{
+		font-size: 0;
+	}
+	.header .center .main .logo h1 img{
+		max-width: 280px;
+		margin-left: 17px;
+	}
+	.header .center .main .info span{
+		max-width: 95%;
+	}
+	.header .center .main .info a{
+		float: none;
+		margin: 28px auto 0;
+	}
+	.header .center .img{
+		margin-top: 20px;
+	}
+	.header .center .lists .item:nth-child(1){
+		margin-right: 0;
+	}
+	.header .center .lists .item:nth-child(2), .header .center .lists .item:nth-child(3){
+		max-width: 84%;
+		padding-left: 30px;
+		margin-right: 0;
+	}
+	.example .title{
+		font-size: 32px;
+	}
+	.example .text{
+		max-width: 320px;
+	}
+	.example .articles{
+		padding-top: 10px;
+	}
+	.example .articles span:nth-child(1),
+	.example .articles span:nth-child(2){
+		float: none;
+		width: 100%;
+		text-align: center;
+		text-shadow: none;
+	}
+	.example .articles h3{
+		padding-top: 10px;
+	}
+	.example .left,
+	.example .right{
+		display: none;
+	}
+	.order .title{
+		font-size: 32px;
+		padding-top: 50px;
+	}
+	.order .text{
+		max-width: 320px;
+	}
+	.order .left,
+	.order .right{
+		display: none;
+	}
+	.order form{
+		margin-left: 30px;
+	}
+	.order form label{
+		margin-bottom: 0;
+	}
+	.workflow .center .article .item{
+		width: 90%;
+		margin-left: 20px;
+	}
+	.workflow .center .article .item p{
+		padding-left: 0;
+	}
+	.workflow .arrows{
+		display: none;
+	}
+	.workflow .af_text{
+		margin-top: 20px;
+	}
+	.workflow .intro-list{
+		width: 90%;
+		margin-left: 20px;
+	}
+	.workflow .text-block{
+		width: 90%;
+		float: none;
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+	.team .title{
+		max-width: 320px;
+	}
+	.team .title img{
+		max-width: 320px;
+	}
+	.example form .select-block{
+		max-width: 97%;
+		float: none;
+		margin: 0 auto 15px;
+	}
+	.example form .textarea{
+		width: 97%;
+		margin: 0 auto;
+	}
+}
+@media screen and (min-width: 600px) and (max-width: 915px){
+	.team ul li:nth-child(4n-3){
+	  margin-left: 4%;
+	}
+	.team ul li:nth-child(4n-4){
+	  margin-right: 4%;
+	}
+}
